@@ -15,7 +15,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="py-24 pb-24 lg:px-[10vw] font-sans relative"
+      className="py-24 pb-24 px-[7vw] lg:px-[10vw] font-sans relative"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -28,7 +28,7 @@ const Work = () => {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
             key={project.id}
